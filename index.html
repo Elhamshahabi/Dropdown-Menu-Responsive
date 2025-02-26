@@ -18,12 +18,20 @@
           <div class="logo">
             <a href="#">Logo</a>
           </div>
+          <div class="open-nav-menu">
+            <span></span>
+          </div>
+          <div class="menu-overlay">
 
-          <!-- navigetion menu start -->
+          </div>
+          <!-- navigetion menu  art -->
           <nav class="nav-menu">
+            <div class="close-nav-menu">
+              <img src="./img/close.svg" alt="close" />
+            </div>
             <ul class="menu">
               <li class="menu-item menu-item-has-children">
-                <a href="#">Home <i class="plus"></i></a>
+                <a href="#" data-toggle="sub-menu">Home <i class="plus"></i></a>
                 <ul class="sub-menu">
                   <li class="menu-item"><a href="#">Home 1</a></li>
                   <li class="menu-item"><a href="#">Home 2</a></li>
@@ -38,7 +46,7 @@
                 <a href="#">Services</a>
               </li>
               <li class="menu-item menu-item-has-children">
-                <a href="#">Pages <i class="plus"></i></a>
+                <a href="#"  data-toggle="sub-menu">Pages <i class="plus"></i></a>
                 <ul class="sub-menu">
                   <li class="menu-item"><a href="#">page 1</a></li>
                   <li class="menu-item"><a href="#">page 2</a></li>
@@ -62,5 +70,6 @@
     <!-- home section start -->
     <section class="home-section"></section>
     <!-- home section end -->
+    <script src="./app.js"></script>
   </body>
 </html>
